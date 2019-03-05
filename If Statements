@@ -1,85 +1,85 @@
 #Exercise 34
 
-# number = int(input("What is the integer: "))
+number = int(input("What is the integer: "))
 
-# if number % 2 == 1:
-#     print(f"{number}, is odd")
-# else:
-#     print(f"{number}, is even")
+if number % 2 == 1:
+    print(f"{number}, is odd")
+else:
+    print(f"{number}, is even")
 
 #Exercise 35
 
-# human_years = int(input("How many human years: "))
+human_years = int(input("How many human years: "))
 
 
-#Exercise 36
+Exercise 36
 
-# letter = input("Enter the letter: ")
+letter = input("Enter the letter: ")
 
-# if letter == "a" or letter == "e" or letter == "i" or \
-# letter == "o" or letter == "u":
-#     print(f"The letter {letter} is a vowel")
-# elif letter == "y":
-#     print("y is sometimes a vowel")
-# else:
-#     print(f"The letter {letter} is a consonant")
+if letter == "a" or letter == "e" or letter == "i" or \
+letter == "o" or letter == "u":
+    print(f"The letter {letter} is a vowel")
+elif letter == "y":
+    print("y is sometimes a vowel")
+else:
+    print(f"The letter {letter} is a consonant")
 
 #Exercise 37
 
-# sides = int(input("How many sides: "))
+sides = int(input("How many sides: "))
 
-# name = ""
+name = ""
 
-# if sides == 3:
-#     name = "triangle"
-# elif sides == 4:
-#     name = "Quadralladeral"
-# elif sides == 5:
-#     name = "Pentagon"
-# elif sides == 6:
-#     name = "Hexagon"
-# elif sides == 7:
-#     name = "Heptagon"
-# elif sides == 8:
-#     name = "Octagon"
-# elif sides == 9:
-#     name = "nonagon"
-# elif sides == 10:
-#     name = "Decagon"
+if sides == 3:
+    name = "triangle"
+elif sides == 4:
+    name = "Quadralladeral"
+elif sides == 5:
+    name = "Pentagon"
+elif sides == 6:
+    name = "Hexagon"
+elif sides == 7:
+    name = "Heptagon"
+elif sides == 8:
+    name = "Octagon"
+elif sides == 9:
+    name = "nonagon"
+elif sides == 10:
+    name = "Decagon"
 
-# if name == "":
-#     print("Error")
-# else:
-#     print(f"That is a, {name}")
+if name == "":
+    print("Error")
+else:
+    print(f"That is a, {name}")
 
 #Exercise 48
 
-# year = int(input("Enter year: "))
+year = int(input("Enter year: "))
 
 
-# if year % 12 == 0:
-#     animal = "monkey"
-# elif year % 12 == 1:
-#     animal = "Rooster"
-# elif year % 12 == 2:
-#     animal = "Dog"
-# elif year % 12 == 3:
-#     animal = "Pig"
-# elif year % 12 == 4:
-#     animal = "Rat"
-# elif year % 12 == 5:
-#     animal = "Ox"
-# elif year % 12 == 6:
-#     animal = "Tiger"
-# elif year % 12 == 7:
-#     animal = "Hare"
-# elif year % 12 == 8:
-#     animal = "Dragon"
-# elif year % 12 == 9:
-#     animal ="Snake"
-# elif year % 12 == 10:
-#     animal = "Horse"
-# elif year % 12 == 11:
-#     animal = "Sheep"
+if year % 12 == 0:
+    animal = "monkey"
+elif year % 12 == 1:
+    animal = "Rooster"
+elif year % 12 == 2:
+    animal = "Dog"
+elif year % 12 == 3:
+    animal = "Pig"
+elif year % 12 == 4:
+    animal = "Rat"
+elif year % 12 == 5:
+    animal = "Ox"
+elif year % 12 == 6:
+    animal = "Tiger"
+elif year % 12 == 7:
+    animal = "Hare"
+elif year % 12 == 8:
+    animal = "Dragon"
+elif year % 12 == 9:
+    animal ="Snake"
+elif year % 12 == 10:
+    animal = "Horse"
+elif year % 12 == 11:
+    animal = "Sheep"
 
-# print("%d is the year of %s." % (year, animal))
+print("%d is the year of %s." % (year, animal))
